@@ -1,13 +1,13 @@
-# ✈️ Flight Delay Prediction Using Machine Learning
+#  Flight Delay Prediction Using Machine Learning
 
-## 🧩 Overview
+##  Overview
 This project predicts **flight delay duration (in minutes)** using historical flight and weather data. The model helps airlines and passengers estimate expected delays before departure, improving scheduling efficiency and passenger satisfaction.
 
 The workflow includes **data preprocessing, feature engineering, model training, evaluation, and inference** using a large dataset (~3 million rows, 32 columns).
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 ```
 ├── flight_delay.ipynb        # Jupyter Notebook with full pipeline
 ├── README.md                 # Project documentation
@@ -29,7 +29,7 @@ The workflow includes **data preprocessing, feature engineering, model training,
 
 ---
 
-## 📊 Dataset
+##  Dataset
 - **Size:** ~3,000,000 rows × 32 columns  
 - **Target Variable:** `Delay` (minutes)  
 - **Features:** flight schedule, carrier, origin, destination, distance, aircraft, weather, etc.  
@@ -39,7 +39,7 @@ The workflow includes **data preprocessing, feature engineering, model training,
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 ### 1. **Data Preprocessing**
 - Handled missing and inconsistent values  
@@ -71,21 +71,9 @@ The workflow includes **data preprocessing, feature engineering, model training,
 ### 6. **Inference**
 - Generated predictions on unseen (test) data  
 - Saved model for later deployment or batch prediction  
-
 ---
 
-## 🧪 Results
-| Model | MAE | RMSE | R² |
-|--------|------|------|----|
-| Linear Regression | – | – | – |
-| Decision Tree | – | – | – |
-| **Random Forest (Final)** | **X.XX** | **X.XX** | **0.XX** |
-
-*(Replace with actual metrics once finalized)*
-
----
-
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Clone the Repository
 ```bash
